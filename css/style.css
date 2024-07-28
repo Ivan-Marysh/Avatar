@@ -16,7 +16,7 @@ flex-shrink: 0;
 .nav-link{
     color: var(--text-color3);
     text-align: center;
-font-family: Inter;
+font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
@@ -25,7 +25,7 @@ line-height: normal;
 .header-btn{
     color: var(--bg-text);
 text-align: justify;
-font-family: HeadlandOne;
+font-family: "Headland One";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -54,7 +54,7 @@ line-height: normal;
     width: 298px;
 height: 96px;
 flex-shrink: 0;
-font-family: Inter;
+font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -72,7 +72,7 @@ flex-shrink: 0;
     width: 376px;
     height: 123px;
     flex-shrink: 0;
-font-family: Inter;
+font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -83,7 +83,7 @@ line-height: normal;
     color: var(--bg-text);
     
 text-align: center;
-font-family: HeadlandOne;
+font-family: "Headland One";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -116,7 +116,7 @@ flex-shrink: 0;
     color: var(--text-color2);
 
 text-align: justify;
-font-family: Inter;
+font-family: "Inter";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -127,7 +127,7 @@ line-height: normal;
     color: var(--text-color4);
 
 text-align: center;
-font-family: Inter;
+font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -145,12 +145,103 @@ flex-shrink: 0;
     color: var(--text-color3);
 
 text-align: justify;
-font-family: Inter;
+font-family: "Inter";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 
-.
+.language-submitle{
+    color: var(--text-color3);
 
+text-align: justify;
+font-family: "Headland One";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.language-text{
+    color: var(--text-color3);
+
+text-align: justify;
+font-family: "Headland One";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+
+.language-img{
+    width: 152px;
+height: 40px;
+flex-shrink: 0;
+}
+
+.language-text2{
+    color: var(--text-color4);
+
+text-align: justify;
+font-family: "Headland One";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.neytiri-submitle{
+    color: var(--text-color3);
+
+text-align: justify;
+font-family: "Inter";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.neytiri-text{
+    color: var(--text-color4);
+
+text-align: justify;
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.neytiri-img{
+    width: 400px;
+height: 120px;
+flex-shrink: 0;
+}
+
+.footer-logo{
+    width: 183px;
+height: 70px;
+flex-shrink: 0;
+}
+.footer-link{
+    color: var(--text-color);
+
+text-align: justify;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-text{
+    color: var(--text-color);
+
+text-align: justify;
+font-family: "Inter";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
