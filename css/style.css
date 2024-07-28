@@ -7,6 +7,20 @@
     --text-color4: #000;
 }
 
+.container{
+    width: 1062px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:  solid red;
+}
+
+.header{
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
 .header-logo{
     width: 186px;
 height: 72px;
@@ -20,7 +34,7 @@ font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: 1.2;
 }
 .header-btn{
     color: var(--bg-text);
@@ -29,7 +43,7 @@ font-family: "Headland One";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 width: 141px;
 height: 41.694px;
 flex-shrink: 0;
@@ -39,14 +53,19 @@ border: 3px solid #26C7EA;
 }
 
 .header-link{
-    color: var(--text-color3);
+    /* color: var(--text-color3);
 
 text-align: center;
 font-family: "Hammersmith One";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: normal; */
+}
+
+.section-clan{
+    padding-top: 204px;
+    padding-bottom: 155px;
 }
 
 .clan-text{
@@ -112,6 +131,11 @@ height: 30px;
 flex-shrink: 0;
 }
 
+.section-jake{
+    padding-top: 75px;
+    padding-bottom: 12px;
+}
+
 .jake-submitle{
     color: var(--text-color2);
 
@@ -141,6 +165,34 @@ flex-shrink: 0;
 
 }
 
+.section-trailer{
+    padding-top: 329px;
+    padding-bottom: 330px;
+}
+
+.trailer-btn{
+    color: var(--bg-text);
+
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    width: 260px;
+height: 79.784px;
+flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid var(--bg-text);
+
+background-color: var(--bg-button);
+}
+
+.section-sully{
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
 .sully-submitle{
     color: var(--text-color3);
 
@@ -150,6 +202,11 @@ font-size: 36px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.section-language{
+    padding-top: 58px;
+    padding-bottom: 57px;
 }
 
 .language-submitle{
@@ -191,6 +248,11 @@ font-weight: 400;
 line-height: 24px;
 }
 
+.section-neytiri{
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+
 .neytiri-submitle{
     color: var(--text-color3);
 
@@ -217,6 +279,11 @@ line-height: normal;
     width: 400px;
 height: 120px;
 flex-shrink: 0;
+}
+
+.footer{
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .footer-logo{
