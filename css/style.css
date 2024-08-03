@@ -123,8 +123,6 @@ margin-left: 56px;
 .clan-text{
     color: var(--text-color);
     width: 298px;
-height: 96px;
-flex-shrink: 0;
 font-family: "Inter";
 font-size: 20px;
 font-style: normal;
@@ -141,8 +139,6 @@ flex-shrink: 0;
 .clan-text2{
     color: var(--text-color);
     width: 376px;
-    height: 123px;
-    flex-shrink: 0;
 font-family: "Inter";
 font-size: 20px;
 font-style: normal;
@@ -169,10 +165,16 @@ border: 3px solid #26C7EA;
 padding: 10px 31px 10px 30px;
 }
 
+.nav-div{
+    display: flex;
+    align-items: center;
+}
+
 .nav-link2{
     width: 30px;
     height: 30px;
     flex-shrink: 0;
+    align-items:flex-end ;
     
     
     
@@ -210,6 +212,7 @@ text-align: center;
 margin-bottom: 16px;
 }
 
+
 .jake-text{
     color: var(--text-color4);
 
@@ -222,10 +225,18 @@ line-height: 1.21;
 margin-bottom: 8px;
 }
 
+
+.jake-div{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .jake-img{
     width: 400px;
 height: 120px;
 flex-shrink: 0;
+
 
 
 }
@@ -317,6 +328,7 @@ text-align: center;
 height: 240px;
 flex-shrink: 0;
 
+
 }
 
 .language-text{
@@ -330,6 +342,11 @@ font-weight: 400;
 line-height: 1; 
 margin-bottom: 40px;
 text-align: center;
+}
+
+.language-div-img{
+    display: flex;
+    justify-content: center;
 }
 
 .language-img{
