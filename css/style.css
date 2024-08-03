@@ -16,19 +16,39 @@
     border:  solid red;
 }
 
+.header-box{
+    display: flex;
+    align-items: center;
+    
+}
+
 .header{
+     background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/forest_top.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 74, 97, 0.87);
     padding-top: 39px;
     padding-bottom: 39px;
+    border-bottom: 3px #FFF;
+    
 }
 
 .header-logo{
     width: 186px;
 height: 72px;
 flex-shrink: 0;
+margin-right: 184px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 38px;
+    
 }
 
 .nav-link{
-    color: var(--text-color3);
+    color: var(--text-color);
     text-align: center;
 font-family: "Inter";
 font-size: 20px;
@@ -36,6 +56,15 @@ font-style: normal;
 font-weight: 300;
 line-height: 1.2;
 }
+
+.header-list{
+    display: flex;
+    margin-left: auto;
+    
+
+    
+}
+
 .header-btn{
     color: var(--bg-text);
 text-align: justify;
@@ -50,26 +79,49 @@ flex-shrink: 0;
 background-color: var(--bg-button);
 border-radius: 45px 0px;
 border: 3px solid #26C7EA;
+margin-right: 49px;
+text-align: center;
 }
 
 .header-link{
-    /* color: var(--text-color3);
+    color: var(--text-color);
 
 text-align: center;
 font-family: "Hammersmith One";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: normal; */
+line-height: 1.25;
+
+
+
+}
+
+.header-link2{
+    color: var(--text-color);
+
+text-align: center;
+font-family: "Hammersmith One";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.25;
+margin-left: 56px;
+
 }
 
 .section-clan{
+    background-image: url(../img/forest.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 74, 97, 0.87);
     padding-top: 204px;
     padding-bottom: 155px;
 }
 
 .clan-text{
-    color: var(--text-color3);
+    color: var(--text-color);
     width: 298px;
 height: 96px;
 flex-shrink: 0;
@@ -77,7 +129,7 @@ font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
 }
 
 .clan-img{
@@ -87,7 +139,7 @@ flex-shrink: 0;
 }
 
 .clan-text2{
-    color: var(--text-color3);
+    color: var(--text-color);
     width: 376px;
     height: 123px;
     flex-shrink: 0;
@@ -95,7 +147,8 @@ font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
+margin-bottom: 42px;
 }
 
 .clan-btn{
@@ -106,29 +159,37 @@ font-family: "Headland One";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
 background-color: var(--bg-button);
 width: 260px;
 height: 80px;
 flex-shrink: 0;
 border-radius: 45px 0px;
 border: 3px solid #26C7EA;
+padding: 10px 31px 10px 30px;
 }
 
 .nav-link2{
     width: 30px;
     height: 30px;
     flex-shrink: 0;
+    
+    
+    
 }
 .nav-link3{
     width: 34px;
 height: 30px;
 flex-shrink: 0;
+
+
 }
 .nav-link4{
     width: 50px;
 height: 30px;
 flex-shrink: 0;
+margin-top: 30px;
+
 }
 
 .section-jake{
@@ -144,7 +205,9 @@ font-family: "Inter";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.3;
+text-align: center;
+margin-bottom: 16px;
 }
 
 .jake-text{
@@ -155,7 +218,8 @@ font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.21;
+margin-bottom: 8px;
 }
 
 .jake-img{
@@ -163,22 +227,29 @@ line-height: normal;
 height: 120px;
 flex-shrink: 0;
 
+
 }
 
 .section-trailer{
+    background-image: url(../img/neytiri.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 74, 97, 0.87);
     padding-top: 329px;
     padding-bottom: 330px;
+    text-align: center;
 }
 
 .trailer-btn{
     color: var(--bg-text);
 
-text-align: justify;
-font-family: HeadlandOne;
+
+font-family: "Headland One";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
     width: 260px;
 height: 79.784px;
 flex-shrink: 0;
@@ -186,11 +257,13 @@ border-radius: 45px 0px;
 border: 3px solid var(--bg-text);
 
 background-color: var(--bg-button);
+padding: 25px 19px 25px 20px;
 }
 
 .section-sully{
     padding-top: 75px;
     padding-bottom: 10px;
+    
 }
 
 .sully-submitle{
@@ -201,10 +274,17 @@ font-family: "Inter";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.3;
+text-align: center;
+margin-bottom: 16px;
 }
 
 .section-language{
+    background-image: url(../img/air_islands.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 74, 97, 0.87);
     padding-top: 58px;
     padding-bottom: 57px;
 }
@@ -217,7 +297,26 @@ font-family: "Headland One";
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.25;
+text-align: center;
+}
+
+.language-list{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+}
+
+.language-div{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background: rgba(255, 255, 255, 0.70);
+
+    width: 320px;
+height: 240px;
+flex-shrink: 0;
+
 }
 
 .language-text{
@@ -228,13 +327,16 @@ font-family: "Headland One";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; 
+line-height: 1; 
+margin-bottom: 40px;
+text-align: center;
 }
 
 .language-img{
     width: 152px;
 height: 40px;
 flex-shrink: 0;
+
 }
 
 .language-text2{
@@ -245,7 +347,9 @@ font-family: "Headland One";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px;
+line-height: 1;
+margin-top: 40px;
+text-align: center;
 }
 
 .section-neytiri{
@@ -256,23 +360,26 @@ line-height: 24px;
 .neytiri-submitle{
     color: var(--text-color3);
 
-text-align: justify;
+text-align: center;
 font-family: "Inter";
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.3;
+text-align: center;
+margin-bottom: 16px;
 }
 
 .neytiri-text{
     color: var(--text-color4);
 
-text-align: justify;
+text-align: center;
 font-family: "Inter";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.21;
+margin-bottom: 8px;
 }
 
 .neytiri-img{
@@ -282,6 +389,11 @@ flex-shrink: 0;
 }
 
 .footer{
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/forest_top.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 74, 97, 0.87);
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -290,16 +402,27 @@ flex-shrink: 0;
     width: 183px;
 height: 70px;
 flex-shrink: 0;
+
 }
+
+.footer-div{
+    width: 2px;
+height: 153px;
+background-color: #FFF;
+}
+
+.footer-list{
+    display: flex;
+}
+
 .footer-link{
     color: var(--text-color);
-
 text-align: justify;
 font-family: "Inter";
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.2;
 }
 
 .footer-text{
@@ -310,5 +433,5 @@ font-family: "Inter";
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 1.22;
 }
