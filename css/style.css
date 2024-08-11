@@ -425,7 +425,7 @@ flex-shrink: 0;
 .footer-box{
     display: flex;
     align-items: center;
-    text-align: center;
+    
     
     
     
@@ -440,7 +440,7 @@ flex-shrink: 0;
     padding-top: 35px;
     padding-bottom: 35px;
     position: relative;
-    text-align: center;
+    
 }
 
 .footer-logo{
@@ -471,6 +471,7 @@ background-color: #FFF;
 
 .footer-list{
     display: flex;
+    text-align: center;
     
 }
 
